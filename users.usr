@@ -1,0 +1,7 @@
+import random
+x=int(input("enter num  "))
+for i in range(1000): 
+	p='@' 
+	while len(p)!=x+1:
+		p+=random.choice("1234567890qwertyuipoasdfghjklzxxcvbnm_")
+	print(p)
